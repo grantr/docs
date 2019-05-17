@@ -150,7 +150,7 @@ rerun the command to see the current status.
 > command to view the component's status updates in real time. Use CTRL+C to
 > exit watch mode.
 
-Set `priviledged` to `true` for the `istio-sidecar-injector`:
+Set `privileged` to `true` for the `istio-sidecar-injector`:
 
 ```shell
 oc get cm istio-sidecar-injector -n istio-system -oyaml  \
